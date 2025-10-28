@@ -5,7 +5,18 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "public"
+        "distDir": "public",
+        "buildCommand": "npm install && hexo clean && hexo generate",
+        "installCommand": "npm install"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate"
       }
     }
   ]
