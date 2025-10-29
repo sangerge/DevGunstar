@@ -6,17 +6,17 @@ menu:
   Home: /
   Archives: /archives
 # RSS link
-rss: /atom.xml
+# rss: /atom.xml
 # Path of title banner image of page top
-banner: "images/banner.jpg"
+banner: "images/banner.gif"
 # Subtitle of page top
 subtitle:
 # Header links with icon, specified links will appear at the top right corner of the page
 # Each name must correspond to the icon name of Fork Awesome
 # https://forkaweso.me/Fork-Awesome/icons/
 links:
-#  github: https://github.com/your_github_account
-#  twitter: https://twitter.com/your_twitter_account
+ github: https://github.com/your_github_account
+ twitter: https://twitter.com/your_twitter_account
 #  telegram: https://t.me/your_telegram_account
 
 # ===============
@@ -67,7 +67,7 @@ gauges_analytics:
 # Favicon path
 favicon: /favicon.png
 # Twitter ID
-twitter:
+twitter: DevGunstar
 fb_admins:
 fb_app_id:
 
