@@ -96,8 +96,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: landscape
-theme: miho
+theme: landscape
+# theme: hexo-theme-clean-dark
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
