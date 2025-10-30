@@ -14,10 +14,10 @@
 
 ### 关于爱好
 热爱`运动`，尤其喜爱`羽毛球`、`阅读`、`电影（Top250）`、`旅行`。
-### 联系我
+<!-- ### 联系我
 * Home: [minhow.com](https://minhow.com)
 * Blog: [blog.minhow.com](http://blog.minhow.com)
 * Email: huangminhow@gmail.com
 * GitHub: [MinHow](https://github.com/WongMinHo)
 * WeiBo: [MinHow](http://weibo.com/WongMinHo)
-* Twitter: [MinHow](https://twitter.com/huangminhow)
+* Twitter: [MinHow](https://twitter.com/huangminhow) -->
