@@ -40,10 +40,11 @@ menu:
 #    url: //minhow.com    Url, absolute or relative path | 链接，绝对或相对路径
 #    target: true         Whether to jump out | 是否跳出
 social:
+#删掉没用，依然还是显示MinHow
   home:
-    title: DevGunstar
+    title: Home
     url: //devgunstar.top
-    target: true
+    target: false
   github:
     title: Github
     url: //github.com/sangerge
@@ -70,11 +71,11 @@ social:
 # Excerpt length | 摘录长度
 excerpt_length: 190
 # Excerpt link | 摘录链接
-excerpt_link: more>>
+excerpt_link: Read More >>
 # New window open link | 新窗口打开文章
 open_new_link: false
 # Article default cover picture，size：350*150 | 文章默认封面图，尺寸：350*150
-cover_picture: images/banner.jpg
+cover_picture: images/banner.gif
 # Open background particles | 开启背景粒子
 open_bg_particle: false
 # Open animation in homepage and head | 开启主页及头部动画
@@ -82,7 +83,7 @@ open_animation: false
 
 # Article
 
-# Open toc | 是否开启toc
+# Open toc | 是否开启文章目录
 toc: true
 # Open share | 是否开启分享
 share: true
@@ -90,16 +91,17 @@ share: true
 # Style customization | 样式定制
 style:
   # Main color tone | 主色调
-  main_color: '#0cc'
+  # main_color: '#0cc'
+  main_color: '#033'
 
 # Reward | 打赏
 
 reward:
   # 0-close, 1-All articles are rewarding, 2-Article's md file has reward:true attribute, only reward
   # 0-关闭, 1-所有文章均有打赏, 2-文章的md文件里有reward:true属性，才有打赏
-  status: 1
+  status: 0
   # 标题
-  title: 请我吃糖~
+  title: Doname me a coffee ☕
   # 微信，关闭设为 false
   wechat: images/wechat_code.jpg
   # 支付宝，关闭设为 false
