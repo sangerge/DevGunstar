@@ -67,13 +67,8 @@ index_generator:
 # Category & Tag
 
 categories:
-  - A
-  - B
-  - C
 tags:
-  - X
-  - Y
-  - Z
+
 
 default_category: uncategorized
 category_map:
