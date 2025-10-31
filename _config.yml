@@ -65,6 +65,16 @@ index_generator:
   order_by: -date
 
 # Category & Tag
+
+categories:
+  - A
+  - B
+  - C
+tags:
+  - X
+  - Y
+  - Z
+
 default_category: uncategorized
 category_map:
   "aaaaa aa": aaaaa-aa
@@ -107,3 +117,10 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+  limit: 1000
