@@ -2,6 +2,8 @@
   font-size: $font-size-large;
   margin-bottom: 60px;
   text-align: center;
+  background: #333333;
+  padding-left: 5px;
 }
 
 .posts-expand .post-title {
@@ -32,7 +34,8 @@
 
 .posts-expand .post-title-link {
   border-bottom: 0;
-  color: var(--link-color);
+  /*color: var(--link-color);*/
+  color: #f6f6f6ff;
   // Make underline position correct
   display: inline-block;
   // Fix issue #736
@@ -40,7 +43,8 @@
   position: relative;
 
   &::before {
-    background: var(--link-color);
+    /*background: var(--link-color);*/
+    background: #f6f6f6cf;
     bottom: 0;
     content: '';
     height: 2px;
@@ -70,10 +74,13 @@
 }
 
 .posts-expand .post-meta-container {
-  color: $grey-dark;
+  background: #edededff;
+  /*color: $grey-dark;*/
+  color: #666;
   font-family: $font-family-posts;
   font-size: $font-size-smallest;
   margin-top: 3px;
+  padding-left: 5px;
 
   .post-description {
     font-size: $font-size-small;
