@@ -2,8 +2,8 @@
   font-size: $font-size-large;
   margin-bottom: 60px;
   text-align: center;
-  background: #555555;
-  padding-left: 3px;
+  background: #d8d8d8ff;
+  padding: 0px 10px;
   transform: scaleX(1);
   transition: transform $transition-ease;
 
@@ -23,7 +23,7 @@
   font-weight: normal;
   margin: initial;
   word-wrap();
-  color: #f6f6f6ff;
+  color: $black-deep;
 
   if (hexo-config('post_edit.enable')) {
     .post-edit-link {
@@ -48,7 +48,7 @@
 .posts-expand .post-title-link {
   border-bottom: 0;
   /*color: var(--link-color);*/
-  color: #f6f6f6ff;
+  color: $black-deep;
   // Make underline position correct
   display: inline-block;
   // Fix issue #736
@@ -93,7 +93,7 @@
   font-family: $font-family-posts;
   font-size: $font-size-smallest;
   margin-top: 3px;
-  padding-left: 3px;
+  padding: 0px 5px;
 
   .post-description {
     font-size: $font-size-small;
