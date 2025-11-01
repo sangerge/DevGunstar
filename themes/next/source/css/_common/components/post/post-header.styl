@@ -18,12 +18,14 @@
   }
 }
 
+/* 文章标题不带链接文字 */
 .posts-expand .post-title {
   font-size: $font-size-largest;
   font-weight: normal;
   margin: initial;
   word-wrap();
   color: $black-deep;
+  text-align: center;
 
   if (hexo-config('post_edit.enable')) {
     .post-edit-link {
@@ -44,7 +46,7 @@
     }
   }
 }
-
+/* 文章标题链接文字 */
 .posts-expand .post-title-link {
   border-bottom: 0;
   /*color: var(--link-color);*/
@@ -54,6 +56,7 @@
   // Fix issue #736
   max-width: 100%;
   position: relative;
+  text-align: center;
 
   &::before {
     /*background: var(--link-color);*/
