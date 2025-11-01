@@ -815,8 +815,8 @@ plausible:
 firestore:
   enable: true
   collection: articles # Required, a string collection name to access firestore database
-  apiKey: "AIzaSyC_NRmLtBuTWFWqjbGSyH9MmkPuN_H6xlg" # Required
-  projectId: "devgunstarblog" # Required
+  apiKey: AIzaSyC_NRmLtBuTWFWqjbGSyH9MmkPuN_H6xlg # Required
+  projectId: devgunstarblog # Required
 
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
