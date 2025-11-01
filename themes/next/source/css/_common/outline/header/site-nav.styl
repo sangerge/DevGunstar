@@ -11,7 +11,8 @@
     width: 22px;
 
     .toggle-line {
-      background: var(--text-color);
+      /*background: var(--text-color);*/
+      background: $oyellow;
       border-radius: 1px;
     }
   }
@@ -21,4 +22,8 @@
   +mobile() {
     site-nav-hide-by-default();
   }
+}
+
+::before {
+  color: $oyellow;
 }
