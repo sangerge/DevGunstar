@@ -2,8 +2,14 @@
   font-size: $font-size-large;
   margin-bottom: 60px;
   text-align: center;
-  background: #444444;
+  background: #555555;
   padding-left: 3px;
+  transform: scaleX(1);
+  transition: transform $transition-ease;
+
+  &:hover {
+    transform: scaleX(1.1);
+  }
 }
 
 .posts-expand .post-title {
