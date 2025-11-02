@@ -829,18 +829,6 @@ busuanzi_count:
   post_views: true
   post_views_icon: far fa-eye
 
-# busuanzi_count:
-#   enable: true
-#   site_uv: true
-#   site_uv_header: Total Site UV
-#   site_uv_footer: P
-#   site_pv: true
-#   site_pv_header: Total Site PV
-#   site_pv_footer: P
-#   page_pv: true
-#   page_pv_header: Page PV
-#   page_pv_footer: P
-
 
 # ---------------------------------------------------------------
 # Search Services
