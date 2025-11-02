@@ -7,7 +7,7 @@
   transform: scaleX(1);
   transition: transform $transition-ease;
   border-radius: 10px;
-  border-left: 1px solid $post-outline;
+  /*border-left: 1px solid $post-outline;*/
 
   &:hover {
     transform: scaleX(1.02);
@@ -61,6 +61,7 @@
   text-align: center;
   overflow: hidden;
 
+  /*文章标题下面的高亮显示线*/
   &::before {
     /*background: var(--link-color);*/
     background: $oyellow;
@@ -73,6 +74,7 @@
     transform: scaleX(0);
     transition: transform $transition-ease;
     width: 100%;
+    border-radius: 2px;
   }
 
   &:hover::before {
