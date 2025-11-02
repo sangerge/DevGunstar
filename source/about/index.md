@@ -1,5 +1,5 @@
 ---
-title: About Me ———— An Indie Game Developer
+title: About Me - An Indie Game Developer
 date: 2025-10-31 12:49:27
 type: about
 ---
