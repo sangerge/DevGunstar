@@ -98,6 +98,7 @@ open_graph:
 menu:
   home: / || fa fa-home
   MyGames: /mygames || fa fa-gamepad
+  Games: /games || fa fa-gamepad
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
