@@ -1164,10 +1164,4 @@ static_prefix:
 
   moment: https://lib.baomitu.com/moment.js/2.29.4/
 
-# Social
-  social:
-  QQ: https://qm.qq.com/q/hVwkKTP35C || fa-brands fa-qq || '#12B7F5'
-  X: https://x.com/GlimSun || fa-brands fa-square-x-twitter || '#12B7F5'
-  youtube: https://www.youtube.com/@GlimSun || fa-brands fa-youtube || '#12B7F5'
-  email: mailto:mail@glimsun.top || fa-solid fa-envelope || '#12B7F5'
 
