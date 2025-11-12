@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: GlimSun Web Games
+title: GlimSun MiniGames
 subtitle: 'indie game website'
-description: 'My Indie Games Website'
+description: 'My Indie Game Website'
 keywords: online games,indie games,web games,html5 games
 author: GlimSun
 language: 
@@ -15,7 +15,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://glimsun.top
-permalink: :lang/:year/:month/:day/:title/
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -104,7 +104,8 @@ ignore:
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 # theme: next
-theme: zhaoo
+# theme: zhaoo
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
