@@ -242,7 +242,7 @@ custom_css:
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:
-  enable: false
+  enable: true
 
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
   # Follow the "Do Not Track" setting of the visitor's browser
@@ -371,8 +371,8 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -1060,13 +1060,13 @@ links:
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links
   custom:
-    enable: false
-    content: '<hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：Fluid</li><li>简介：Fluid 主题官方博客</li><li>链接：https://hexo.fluid-dev.com</li><li>图片：https://hexo.fluid-dev.com/img/favicon.png</li></ul>'
+    enable: true
+    content: '<hr><p>Leave a comment below to request to join my link exchange. Please provide information in the following format : </p><ul><li>Blog Name : XXXXXX</li><li>Introduction : XXXXXX</li><li>Link : https://example.com</li><li>icon : https://example.com/img/favicon.png</li></ul>'
 
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
@@ -1133,3 +1133,11 @@ static_prefix:
   hint: https://lib.baomitu.com/hint.css/2.7.0/
 
   moment: https://lib.baomitu.com/moment.js/2.29.4/
+
+# Social
+  social:
+  QQ: https://qm.qq.com/q/hVwkKTP35C || fa-brands fa-qq || '#12B7F5'
+  X: https://x.com/GlimSun || fa-brands fa-square-x-twitter || '#12B7F5'
+  youtube: https://www.youtube.com/@GlimSun || fa-brands fa-youtube || '#12B7F5'
+  email: mailto:mail@glimsun.top || fa-solid fa-envelope || '#12B7F5'
+
