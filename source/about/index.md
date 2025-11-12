@@ -29,7 +29,7 @@ A year later, I grew tired of the lack of challenge in that job. I wanted to lea
 Reader: Wait, I thought you wanted to be a painter?
 Me: Hahahaha! Besides drawing, I also loved playing video games when I was a kid. If I had to choose one, I would definitely pick games!
 
-Back then, my favorite console wasn't the Nintendo series, it was the SEGA MEGADRIVE. And my favorite company wasn't Nintendo either, but TREASURE, especially Gunstar Heroes and Alien Soldier. Gunstar Heroes is very similar to KONAMI's Contra - Hard Corps, both having top-tier audio-visual presentation. My blog's name is actually inspired by that game. Honestly, without the MEGADRIVE and TREASURE, I don't know where I'd be right now.
+Back then, my favorite console wasn't the Nintendo series, it was the SEGA MEGADRIVE. And my favorite company wasn't Nintendo either, but TREASURE, especially Gunstar Heroes and Alien Soldier. Gunstar Heroes is very similar to KONAMI's Contra - Hard Corps, both having top-tier audio-visual presentation. Honestly, without the MEGADRIVE and TREASURE, I don't know where I'd be right now.
 
 Eventually, I quit the ad shop to teach myself game development.
 Reader: Why do you always teach yourself? Wouldn't a training course be faster?
